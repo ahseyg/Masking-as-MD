@@ -28,6 +28,17 @@ Obsidian'ı markdown olmayan dosyalarınız için güçlü bir kod editörüne d
 
 ---
 
+## Ekran Görüntüleri
+
+![Kod Editörü Görünümü](assets/image1.png)
+
+![Kod Editörü Görünümü 2](assets/image2.png)
+
+### Ayarlar
+![Ayarlar Görünümü](assets/settings.png)
+
+---
+
 ## Neden Masking as MD?
 
 Obsidian Markdown için mükemmeldir, ancak zaman zaman kasanızdan ayrılmadan betikleri, yapılandırma dosyalarını veya web belgelerini düzenlemeniz gerekebilir. Harici editörlere güvenmek yerine, Masking as MD doğrudan Obsidian'a entegre edilmiş tam teşekküllü bir CodeMirror 6 editörü sunar.

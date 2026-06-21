@@ -28,6 +28,17 @@ Transform Obsidian into a powerful code editor for your non-markdown files. This
 
 ---
 
+## Screenshots
+
+![Code Editor View](assets/image1.png)
+
+![Code Editor View 2](assets/image2.png)
+
+### Settings
+![Settings View](assets/settings.png)
+
+---
+
 ## Why Masking as MD?
 
 Obsidian is excellent for Markdown, but occasionally you need to edit scripts, configuration files, or web documents without leaving your vault. Instead of relying on external editors, Masking as MD integrates a fully-fledged CodeMirror 6 editor directly into Obsidian.
