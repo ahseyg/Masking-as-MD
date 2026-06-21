@@ -2,7 +2,7 @@
 
 A powerful Obsidian plugin that allows you to open, view, and edit non-markdown files natively within your vault. Experience a full code editor environment directly in Obsidian with syntax highlighting, line numbers, and more!
 
-## ✨ Features
+## Features
 
 - **Native Editing**: Open `.py`, `.js`, `.html`, `.css`, `.json`, `.txt`, and many other file types as editable text documents directly in Obsidian.
 - **Syntax Highlighting**: Built-in support for popular programming and markup languages, powered by CodeMirror 6.
@@ -14,7 +14,7 @@ A powerful Obsidian plugin that allows you to open, view, and edit non-markdown 
 - **No Conversion Needed**: Files are opened directly. No conversion to Markdown and no file modification occurs unless you edit and save.
 - **Seamless Integration**: Files open just like standard Markdown files. Supports context menu "Open as Text" for quick access.
 
-## 🚀 Installation
+## Installation
 
 ### From Obsidian Community Plugins (Pending)
 1. Open Obsidian Settings.
@@ -27,7 +27,7 @@ A powerful Obsidian plugin that allows you to open, view, and edit non-markdown 
 2. Place the files in your vault's plugin directory: `<vault>/.obsidian/plugins/masking-as-md/`
 3. Reload Obsidian and enable the plugin from Community Plugins.
 
-## ⚙️ Configuration
+## Configuration
 
 Once installed and enabled, you can configure the plugin by going to **Settings → Masking as MD**:
 
@@ -37,7 +37,7 @@ Once installed and enabled, you can configure the plugin by going to **Settings 
 - **Word Wrap**: Wrap long lines so you don't have to scroll horizontally.
 - **Font Size**: Use the slider to set your ideal editor font size.
 
-## 💻 Supported Languages (Syntax Highlighting)
+## Supported Languages (Syntax Highlighting)
 
 The plugin currently provides built-in syntax highlighting for:
 - JavaScript / TypeScript (`.js`, `.jsx`, `.ts`, `.tsx`)
@@ -49,7 +49,7 @@ The plugin currently provides built-in syntax highlighting for:
 
 *More languages can be supported upon request!*
 
-## 🛠️ Development
+## Development
 
 If you want to contribute or build the plugin from source:
 
@@ -58,10 +58,10 @@ If you want to contribute or build the plugin from source:
 3. Run `npm run build` to compile the plugin.
 4. Copy the output files to your Obsidian vault's plugin folder.
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## Author
 
 Created by [ahseyg](https://github.com/ahseyg).
