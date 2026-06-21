@@ -3,7 +3,7 @@
     "name": "Masking as MD",
     "version": "1.0.0",
     "minAppVersion": "0.15.0",
-    "description": "Open non-markdown files (.py, .html, .txt, .js, .css, etc.) as editable text documents directly in Obsidian.",
+    "description": "Open and edit non-Markdown files (.py, .html, .txt, .js, .css, etc.) directly as plain text.",
     "author": "ahseyg",
     "authorUrl": "https://github.com/ahseyg",
     "isDesktopOnly": false
