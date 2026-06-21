@@ -60,7 +60,8 @@ export default class MaskingPlugin extends Plugin {
     async onload() {
         console.log('Masking as MD: Loading...');
 
-        this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+        const loadedData = (await this.loadData()) as Partial<Settings> | null;
+        this.settings = Object.assign({}, DEFAULT_SETTINGS, loadedData || {});
 
         this.addSettingTab(new MaskingSettingTab(this.app, this));
 
@@ -122,9 +123,6 @@ class CodeEditorView extends TextFileView {
     async onOpen(): Promise<void> {
         this.contentEl.empty();
         this.contentEl.classList.add('masking-code-editor-view');
-        this.contentEl.style.height = '100%';
-        this.contentEl.style.display = 'flex';
-        this.contentEl.style.flexDirection = 'column';
 
         const extensions: Extension[] = [
             history(),
@@ -304,7 +302,6 @@ class MaskingSettingTab extends PluginSettingTab {
             .addSlider(slider => slider
                 .setLimits(10, 30, 1)
                 .setValue(this.plugin.settings.fontSize)
-                .setDynamicTooltip()
                 .onChange(async (value) => {
                     this.plugin.settings.fontSize = value;
                     await this.plugin.saveData(this.plugin.settings);

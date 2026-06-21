@@ -127,8 +127,9 @@
 	background: var(--background-modifier-hover);
 }
 
-.masking-code-editor-view .cm-selectionBackground {
-	background: var(--text-selection) !important;
+.masking-code-editor-view .cm-editor .cm-selectionBackground,
+.masking-code-editor-view .cm-focused .cm-selectionBackground {
+	background: var(--text-selection);
 }
 
 .masking-code-editor-view .cm-cursor {

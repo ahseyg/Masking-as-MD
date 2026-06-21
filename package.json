@@ -1,6 +1,6 @@
 {
     "name": "obsidian-masking-as-md",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Open non-markdown files with syntax highlighting in Obsidian",
     "author": "ahseyg",
     "main": "main.js",
