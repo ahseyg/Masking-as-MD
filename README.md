@@ -55,6 +55,7 @@ The plugin provides built-in syntax highlighting for the following languages out
 - **HTML** (`.html`, `.htm`)
 - **CSS / SCSS / LESS** (`.css`, `.scss`, `.less`)
 - **JSON** (`.json`)
+- **YAML** (`.yaml`, `.yml`)
 - **Markdown** (`.md`, `.markdown` - if forced to open with this plugin)
 
 ---

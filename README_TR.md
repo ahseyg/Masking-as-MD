@@ -55,6 +55,7 @@ Eklenti aşağıdaki diller için yerleşik sözdizimi vurgulama desteği sunar:
 - **HTML** (`.html`, `.htm`)
 - **CSS / SCSS / LESS** (`.css`, `.scss`, `.less`)
 - **JSON** (`.json`)
+- **YAML** (`.yaml`, `.yml`)
 - **Markdown** (`.md`, `.markdown` - bu eklenti ile açılmaya zorlanırsa)
 
 ---

@@ -9,6 +9,7 @@ import { html } from '@codemirror/lang-html';
 import { css } from '@codemirror/lang-css';
 import { json } from '@codemirror/lang-json';
 import { markdown } from '@codemirror/lang-markdown';
+import { yaml } from '@codemirror/lang-yaml';
 
 const VIEW_TYPE = 'masking-text-view';
 
@@ -49,6 +50,9 @@ function getLanguageExtension(ext: string): Extension | null {
         case 'md':
         case 'markdown':
             return markdown();
+        case 'yml':
+        case 'yaml':
+            return yaml();
         default:
             return null;
     }

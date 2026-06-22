@@ -1,7 +1,7 @@
 {
     "id": "masking-as-md",
     "name": "Masking as MD",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "minAppVersion": "1.0.0",
     "description": "Open and edit non-Markdown files (.py, .html, .txt, .js, .css, etc.) directly as plain text.",
     "author": "ahseyg",
