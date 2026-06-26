@@ -4,6 +4,7 @@
   <img src="https://img.shields.io/github/issues/ahseyg/Masking-as-MD?style=flat&color=e74c3c" alt="Issues"/>
   <img src="https://img.shields.io/github/license/ahseyg/Masking-as-MD?style=flat&color=2ecc71" alt="License"/>
   <img src="https://img.shields.io/github/v/release/ahseyg/Masking-as-MD?style=flat&color=f39c12" alt="Version"/>
+  <img src="https://img.shields.io/github/downloads/ahseyg/Masking-as-MD/total?style=flat&color=blueviolet" alt="Downloads"/>
 </p>
 
 <p align="center">
