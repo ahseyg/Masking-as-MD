@@ -13,7 +13,7 @@
 
 # Masking as MD for Obsidian
 
-Transform Obsidian into a powerful code editor for your non-markdown files. This plugin allows you to open, view, and edit files like `.py`, `.js`, `.html`, `.css`, and `.json` natively within your vault, complete with syntax highlighting and line numbers.
+Transform Obsidian into a powerful code editor for your non-markdown files. This plugin allows you to open, view, and edit files like `.py`, `.js`, `.html`, `.css`, and `.json` natively within your vault, complete with syntax highlighting and line numbers. 
 
 **Open source** · MIT License · Contributions welcome
 
